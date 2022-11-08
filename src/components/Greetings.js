@@ -1,3 +1,4 @@
+/* Interation 2| Component: Greetings */
 
 function Greetings({lang, children}) {
    
