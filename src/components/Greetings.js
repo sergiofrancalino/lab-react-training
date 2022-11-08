@@ -1,14 +1,20 @@
-function Greetings (props){
 
-  /* se props.lang === "de" => Hallo */
-  /* se props.lang === "fr => bonjour */
+function Greetings({lang, children}) {
+   
+    const wordLang = {
+      de: 'Hallo',
+      en: 'Hello',
+      es: 'Buén día',
+      fr: 'Bonjour',
+    };
 
     return (
-        <div>
-
-        </div>
-    )
-
-}
+      <div className="greetings">
+        <h3>
+          {wordLang[lang]} {children}
+        </h3>
+      </div>
+    );
+  }
 
 export default Greetings
