@@ -10,9 +10,7 @@ function DriverCard({ name, rating, img, car }) {
       <article className="driverData">
 
         <h4 className="driverName">{name}</h4>
-
         <Rating className="driverName">{rating}</Rating>
-
         <p className="driverName"> {car.model} - {car.licensePlate}</p>
 
       </article>
