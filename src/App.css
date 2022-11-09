@@ -3,7 +3,6 @@
 }
 
 /* Estilo do componente ICard */
-
 .idCard-border {
   display: flex;
   border: 1px solid black;
@@ -11,9 +10,89 @@
   margin: 0.6%;
 }
 
+/* Estilo do componente Greetings */
 .greetings {
   display: flex;
-  border: 1.5px solid black;
+  border: 1.8px solid black;
   align-items: center;
+  margin: 0.6%;
+}
+
+/* Estilo do componente Random */
+.randoms {
+  display: flex;
+  border: 1.8px solid black;
+  align-items: center;
+  margin: 0.6%;
+}
+.boxColor-box {
+  display: flex;
+  font-size: 2rem;
+  flex-direction: column;
+  align-items: center;
+  border: 1.8px solid black;
+  margin: 0.6%;
+ 
+}
+.creditCard-box {
+  display: flex;
+  margin:0.6%;
+  border: 1.8px solid rgb(241, 237, 237);
+}
+.cartaoCredito {
+  background-color: bisque;
+  display: flex;
+  width: 230px;
+  flex-direction: column;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.bandeira {
+  width: 40px;
+  display: flex;
+}
+.cartaoNumero {
+  text-align: center;
+}
+.cartaoDados {
+  font-size: 12px;
+  text-align: left;
+}
+.divBandeira {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.rating-box {
+  display: flex;
+  font-size: 5rem;
+  flex-direction: column;
+  align-items: left;
+  border: 1.8px solid rgb(245, 242, 242);
+  margin: 0.6%;
+}
+.foto {
+
+  width: 9%;
+  height: 90%;
+  border-radius: 100%;
+  margin: 0.6%;
+}
+.drivecar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(57, 45, 160);
+  margin: 0.6%;
+  height: 8rem;
+  border-radius: 7px;
+  justify-content: center;
+}
+.driverData {
+  display: block;
+  color: white;
+  font-size: 1.2rem;
   margin: 0.6%;
 }
